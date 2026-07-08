@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ignite-path-12.lovable.app/sitemap.xml

@@ -1,0 +1,13 @@
+# Inclusão Digital
+
+> Projeto de extensão universitária, sem fins lucrativos, que reúne as melhores plataformas gratuitas da internet para estudo, trabalho e organização pessoal.
+
+O site apresenta ferramentas confiáveis e gratuitas — muitas com certificado — organizadas por categoria (cursos, produtividade, carreira, idiomas, programação) para ajudar pessoas a aprender, conquistar novas habilidades e melhorar de vida.
+
+## Pages
+
+- [Início](/): Landing page com hero, categorias, biblioteca de ferramentas gratuitas, guia de como começar, impacto e sobre o projeto.
+
+## Guias
+
+- [Cursos gratuitos com certificado MEC](/guias/certificados-mec): Guia completo com plataformas oficiais (AVAMEC, Escola Virtual.Gov, UNA-SUS) e passo a passo para emitir certificados reconhecidos.
