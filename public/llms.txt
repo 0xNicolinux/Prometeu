@@ -1,4 +1,4 @@
-# Inclusão Digital
+# Prometeu
 
 > Projeto de extensão universitária, sem fins lucrativos, que reúne as melhores plataformas gratuitas da internet para estudo, trabalho e organização pessoal.
 

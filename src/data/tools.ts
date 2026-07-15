@@ -42,6 +42,18 @@ export const CATEGORIES: { id: Category; label: string; emoji: string; descripti
 
 export const TOOLS: Tool[] = [
   {
+    id: "prometeu-code",
+    name: "Prometeu Code",
+    description: "Trilha completa para aprender os fundamentos da programação do zero de forma interativa.",
+    type: "Trilha",
+    level: "Iniciante",
+    language: "Português",
+    certificate: false,
+    categories: ["Cursos", "Programação"],
+    url: "https://prometeu-code.vercel.app/",
+    initials: "PC",
+  },
+  {
     id: "google-grow",
     name: "Cresça com o Google",
     description: "Programas de capacitação digital do Google focados em habilidades de IA, produtividade e certificados profissionais em áreas de alta demanda.",

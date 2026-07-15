@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Github, Heart, Brain, LockOpen } from "lucide-react";
+import { Github, Heart, Brain, LockOpen, GraduationCap } from "lucide-react";
 
 export function SiteFooter() {
   const year = new Date().getFullYear();
@@ -22,15 +22,25 @@ export function SiteFooter() {
             <div>
               <h3 className="font-semibold text-foreground">Explorar</h3>
               <ul className="mt-3 space-y-2 text-muted-foreground">
-                <li><a href="#categorias" className="hover:text-primary">Categorias</a></li>
-                <li><a href="#ferramentas" className="hover:text-primary">Ferramentas</a></li>
-                <li><a href="#como-comecar" className="hover:text-primary">Como começar</a></li>
-                <li><a href="#impacto" className="hover:text-primary">Impacto</a></li>
+                <li>
+                  <a
+                    href="https://prometeu-code.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 hover:text-primary"
+                  >
+                    Prometeu Code
+                  </a>
+                </li>
                 <li>
                   <Link to="/guias/certificados-mec" className="hover:text-primary">
                     Guia de Certificados
                   </Link>
                 </li>
+                <li><a href="#categorias" className="hover:text-primary">Categorias</a></li>
+                <li><a href="#ferramentas" className="hover:text-primary">Ferramentas</a></li>
+                <li><a href="#como-comecar" className="hover:text-primary">Como começar</a></li>
+                <li><a href="#impacto" className="hover:text-primary">Impacto</a></li>
               </ul>
             </div>
             <div>
