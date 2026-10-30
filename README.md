@@ -1,111 +1,109 @@
 <div align="center">
 
-  #  PROMETEU 🔥
+# Prometeu
 
-  ### *Levando a chama do conhecimento e da inclusão digital para o mundo.*
+### Recursos digitais gratuitos organizados para facilitar o acesso ao conhecimento.
 
-  [![MIT License](https://img.shields.io/badge/License-MIT-orange.svg?style=for-the-badge)](LICENSE)
-  [![React 19](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-19-149eca?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/license-MIT-informational)](./LICENSE)
 
-  <p align="center">
-    <b>🌐 Link Oficial:</b> <a href="https://prometeu-nicolinux.vercel.app/">https://prometeu-nicolinux.vercel.app/</a>
-  </p>
+**Aplicação:** [prometeu-nicolinux.vercel.app](https://prometeu-nicolinux.vercel.app/)
+
 </div>
 
----
+## Visão geral
 
-## 📝 Introdução
+O **Prometeu** é uma plataforma de curadoria que reúne ferramentas, cursos e outros recursos gratuitos disponíveis na internet. A proposta é reduzir o esforço de encontrar materiais úteis, apresentando opções organizadas por categoria, nível e idioma.
 
-O **Prometeu** é uma plataforma de inclusão digital desenvolvida para democratizar e facilitar o acesso ao conhecimento gratuito de qualidade disponível na internet. O projeto reúne, organiza e apresenta recursos educativos através de uma curadoria minuciosa, ajudando qualquer pessoa a encontrar caminhos de aprendizagem confiáveis sem se perder no mar de informações dispersas da web.
+O projeto tem como foco a inclusão digital e o acesso a oportunidades de aprendizagem, desenvolvimento profissional e produtividade.
 
-### 🏛️ A Inspiração do Mito
-> O nome do projeto é inspirado no titã **Prometeu**, que na mitologia grega roubou o fogo dos deuses para entregá-lo à humanidade. Para nós, a **chama representa o conhecimento, a evolução e o poder de transformação social**. Este hub nasceu para manter essa chama viva e acessível a qualquer cidadão.
+## Categorias do catálogo
 
----
+O catálogo organiza recursos nas seguintes áreas:
 
-## 🎯 O Problema vs A Solução
+- Cursos
+- Certificados
+- Trabalho e carreira
+- Organização pessoal
+- Programação
+- Idiomas
+- Design
+- Escritório
+- Computação em nuvem
+- Inteligência artificial
 
-| ❌ O Problema Atual | ✔️ A Solução Prometeu |
-| :--- | :--- |
-| Excesso de conteúdo disperso e links quebrados. | Hub centralizado com **curadoria humana e confiável**. |
-| Dificuldade em achar cursos que dão certificado grátis. | Filtro direto focado em plataformas com **certificação oficial**. |
-| Interfaces complexas que afastam pessoas com pouca inclusão digital. | Design limpo, intuitivo e focado em **acessibilidade**. |
+Os registros do catálogo incluem informações como descrição, tipo de recurso, nível, idioma, indicação de certificado, categorias e endereço de acesso.
 
----
+## Funcionalidades
 
-## ✨ Funcionalidades Key-Features
+- **Catálogo de recursos:** apresentação de ferramentas e plataformas cadastradas no projeto.
+- **Navegação por categorias:** organização dos recursos em áreas de interesse.
+- **Informações dos recursos:** descrição, nível recomendado, idioma e indicação de certificado.
+- **Orientação inicial:** seções que ajudam o visitante a entender como começar.
+- **Apresentação de impacto e propósito:** contextualização da proposta de inclusão digital.
 
-* 🗂️ **Catálogo Inteligente:** Listagem de ferramentas, cursos e plataformas 100% gratuitas.
-* 🏷️ **Filtros por Categorias:** Navegue facilmente por tecnologia, design, idiomas, negócios, etc.
-* 🎓 **Rota do Certificado:** Identificação clara de quais recursos oferecem certificados válidos sem custo.
-* 🛡️ **Links Verificados:** Proteção contra spam ou sites maliciosos; curadoria focada em segurança.
-* 📱 **Acessibilidade First:** Interface fluida criada para rodar perfeitamente em celulares e computadores antigos.
+A indicação de certificado representa a informação cadastrada para cada recurso; condições, disponibilidade e eventuais cobranças devem ser conferidas diretamente na plataforma de origem.
 
----
+## Tecnologias
 
-## 🛠️ Tecnologias Utilizadas
+- **React 19** — interface baseada em componentes.
+- **TypeScript** — tipagem estática.
+- **TanStack Start e TanStack Router** — estrutura da aplicação e roteamento.
+- **Vite** — ambiente de desenvolvimento e build.
+- **Nitro** — camada de execução utilizada pelo projeto.
+- **Tailwind CSS** — estilização.
+- **Radix UI** — componentes acessíveis de interface.
+- **Lucide React** — ícones.
 
-O ecossistema do Prometeu foi construído utilizando o que há de mais moderno em performance de front-end:
+## Executar localmente
 
-* **React 19** — Core da aplicação utilizando os conceitos mais recentes de componentes.
-* **Vite** — Tooling de build ultra-rápido para otimização de desenvolvimento.
-* **TypeScript** — Código fortemente tipado garantindo escalabilidade e prevenção de bugs em produção.
-* **TanStack Ecosystem** — Arquitetura de alta performance para gerenciamento de dados e rotas.
-* **Nitro** — Engine de servidor embarcada para renderização e entrega de alta velocidade.
-* **Tailwind CSS** — Estilização moderna e responsiva baseada em utilitários de CSS.
-* **Lucide React** — Pack de ícones minimalistas e leves integrados na UI.
+### Requisitos
 
----
+- Node.js
+- npm
 
-## Como Executar Localmente 🚀
+### Instalação
 
-Você vai precisar apenas do **Node.js** instalado na sua máquina.
-
-1. **Clone este repositório:**
-```bash
-git clone [https://github.com/Nicolinux-dev/Prometeu.git](https://github.com/Nicolinux-dev/Prometeu.git)
-
-```
-
-
-2. **Entre no diretório do projeto:**
-```bash
+~~~bash
+git clone https://github.com/0xNicolinux/Prometeu.git
 cd Prometeu
-
-```
-
-
-3. **Instale as dependências:**
-```bash
 npm install
+~~~
 
-```
+### Desenvolvimento
 
-
-4. **Inicie o servidor de desenvolvimento local:**
-```bash
+~~~bash
 npm run dev
+~~~
 
-```
+### Build e pré-visualização
 
+~~~bash
+npm run build
+npm run preview
+~~~
 
+### Qualidade de código
 
----
+~~~bash
+npm run lint
+npm run format
+~~~
 
-## 🤝 Como Contribuir
+## Organização do catálogo
 
-O Prometeu é um projeto feito de dev para dev com foco social. Toda ajuda para manter a chama acesa é bem-vinda!
+Os dados dos recursos e as categorias são definidos em `src/data/tools.ts`. Esse arquivo contém os tipos utilizados para descrever cada item, incluindo nome, descrição, nível, idioma, indicação de certificado, categorias e URL.
 
-1. Faça um **Fork** do projeto.
-2. Crie uma branch para a sua feature: `git checkout -b feature/MinhaFeature`.
-3. Faça o Commit das suas alterações: `git commit -m 'feat: Adiciona nova categoria de cursos'`.
-4. Abra um **Pull Request**.
+## Contribuição
 
----
+Contribuições podem ser propostas por meio de fork e pull request:
 
-## 📄 Licença
+1. Crie um fork do repositório.
+2. Crie uma branch para sua alteração.
+3. Faça as alterações e valide o projeto localmente.
+4. Abra um pull request com uma descrição objetiva.
 
-Este projeto é open-source e está licenciado sob a [MIT License](https://www.google.com/search?q=LICENSE) — o que significa que você pode usar, modificar e distribuir livremente mantendo os créditos do autor.
+## Licença
 
----
+Este projeto está licenciado sob a [MIT License](./LICENSE).
